@@ -1,0 +1,8 @@
+node_modules/
+dist/ 
+.vscode/
+test/
+__tests__/
+.parcel-cache/
+.VSCodeCounter/
+.npmrc
