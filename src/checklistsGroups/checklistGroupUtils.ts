@@ -1,6 +1,6 @@
 import { getTasksSummary } from "./checklistUtils";
-import { IChecklist } from "./IChecklist";
-import { IChecklistGroup } from "./IChecklistGroup";
+import type { IChecklist } from "./IChecklist";
+import type { IChecklistGroup } from "./IChecklistGroup";
 
 /**
  * Convert the checklists object in the checklist group to an array and sort them by order.

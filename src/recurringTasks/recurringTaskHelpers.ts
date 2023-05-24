@@ -1,10 +1,10 @@
 import dayjs, { Dayjs } from "dayjs";
-import { RecurrenceObject } from "./RecurrenceObject";
+import type { RecurrenceObject } from "./RecurrenceObject";
 import utc from "dayjs/plugin/utc.js";
 import isoWeek from "dayjs/plugin/isoWeek.js";
-import { IRecurringTaskDoc } from "./IRecurringTaskDoc";
+import type { IRecurringTaskDoc } from "./IRecurringTaskDoc";
 import dayjsRecur from "dayjs-recur";
-import { IRecurringTask } from "./IRecurringTask";
+import type { IRecurringTask } from "./IRecurringTask";
 dayjs.extend(utc);
 dayjs.extend(isoWeek);
 dayjs.extend(dayjsRecur);

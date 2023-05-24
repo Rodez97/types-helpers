@@ -1,5 +1,5 @@
-import { IShift } from "./Shift";
-import { IScheduleDoc } from "./ScheduleDoc";
+import type { IShift } from "./Shift";
+import type { IScheduleDoc } from "./ScheduleDoc";
 
 export type WeekSchedule = {
   shifts: IShift[];

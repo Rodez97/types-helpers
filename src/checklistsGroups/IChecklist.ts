@@ -1,4 +1,4 @@
-import { ITask } from "../tasks";
+import type { ITask } from "../tasks";
 
 /**
  * A checklist is a list of tasks that can be completed.

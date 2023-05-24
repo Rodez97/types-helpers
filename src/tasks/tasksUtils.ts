@@ -1,4 +1,4 @@
-import { ITask } from "./ITask";
+import type { ITask } from "./ITask";
 
 /**
  * Sorts tasks based on their order property.

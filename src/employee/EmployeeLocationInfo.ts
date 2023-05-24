@@ -1,4 +1,4 @@
-import { RoleAccessLevels } from "../utils";
+import type { RoleAccessLevels } from "../utils";
 
 /**
  * Interface representing additional information about an employee's location.

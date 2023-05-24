@@ -1,5 +1,5 @@
-import { ITask } from "../tasks/ITask";
-import { IChecklist } from "./IChecklist";
+import type { ITask } from "../tasks/ITask";
+import type { IChecklist } from "./IChecklist";
 
 /**
  * Sort an array of checklists or tasks based on their order property.

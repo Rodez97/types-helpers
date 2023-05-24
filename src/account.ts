@@ -77,6 +77,10 @@ export interface ICuttinboardUser {
   updatedAt?: number;
   refPath: string;
   id: string;
+  locations?: string[];
+  organizations?: string[];
+  // Organization ID -> location ID[]
+  organizationsRelationship?: Record<string, string[]>;
 }
 
 /**

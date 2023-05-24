@@ -1,4 +1,4 @@
-import { Recipient } from "./message";
+import type { Recipient } from "./message";
 
 /**
  * Represents a direct message chat.

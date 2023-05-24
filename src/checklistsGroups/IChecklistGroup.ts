@@ -1,4 +1,4 @@
-import { IChecklist } from "./IChecklist";
+import type { IChecklist } from "./IChecklist";
 
 /**
  * A Checklist group is a group of checklists linked to a location.

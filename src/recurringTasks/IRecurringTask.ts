@@ -1,4 +1,4 @@
-import { RecurrenceObject } from "./RecurrenceObject";
+import type { RecurrenceObject } from "./RecurrenceObject";
 
 /**
  * Interface for a recurring task.

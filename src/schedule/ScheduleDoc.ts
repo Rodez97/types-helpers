@@ -1,4 +1,4 @@
-import { WeekSummary } from "./WeekSummary";
+import type { WeekSummary } from "./WeekSummary";
 
 /**
  * Represents the properties for publishing a schedule.

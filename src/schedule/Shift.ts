@@ -1,5 +1,5 @@
 import dayjs, { Dayjs } from "dayjs";
-import { WageDataByDay } from "./ShiftData";
+import type { WageDataByDay } from "./ShiftData";
 import { SHIFTFORMAT } from "../utils";
 
 /**

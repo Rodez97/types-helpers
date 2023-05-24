@@ -1,4 +1,4 @@
-import { WageDataByDay } from "./ShiftData";
+import type { WageDataByDay } from "./ShiftData";
 
 /**
  * Total summary of a week's worth of shifts.

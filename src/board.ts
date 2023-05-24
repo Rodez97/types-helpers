@@ -1,4 +1,4 @@
-import { PrivacyLevel } from "./utils/PrivacyLevel";
+import type { PrivacyLevel } from "./utils/PrivacyLevel";
 
 /**
  * Represents the collection types for a board.

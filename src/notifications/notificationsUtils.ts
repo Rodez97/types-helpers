@@ -1,4 +1,4 @@
-import { INotifications } from "./INotifications";
+import type { INotifications } from "./INotifications";
 
 /**
  * Returns the total number of badges for all direct messages.

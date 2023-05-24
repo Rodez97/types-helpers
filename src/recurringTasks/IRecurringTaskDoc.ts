@@ -1,4 +1,4 @@
-import { IRecurringTask } from "./IRecurringTask";
+import type { IRecurringTask } from "./IRecurringTask";
 
 /**
  * Interface for a recurring task document.

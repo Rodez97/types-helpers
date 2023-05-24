@@ -1,7 +1,6 @@
-import { intersection } from "lodash";
-import { BaseUser, ICuttinboardUser } from "../account";
+import type { BaseUser, ICuttinboardUser } from "../account";
 import { RoleAccessLevels } from "../utils/RoleAccessLevels";
-import { EmployeeLocationInfo } from "./EmployeeLocationInfo";
+import type { EmployeeLocationInfo } from "./EmployeeLocationInfo";
 
 /**
  * Interface representing the employees document.
@@ -72,5 +71,5 @@ export function checkEmployeePositions(
   if (!employee.positions) {
     return false;
   }
-  return intersection(positions, employee.positions).length > 0;
+  return positions.some((position) => employee.positions?.includes(position));
 }

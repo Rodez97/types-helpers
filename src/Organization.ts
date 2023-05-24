@@ -6,7 +6,7 @@ export type Organization = {
   locations: number;
   subItemId: string;
   subscriptionId: string;
-  cancellationDate: number;
+  cancellationDate?: number;
   subscriptionStatus:
     | "incomplete"
     | "incomplete_expired"
