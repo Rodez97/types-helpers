@@ -7,7 +7,7 @@ import {
   WageDataRecord,
   WageOptions,
 } from "./Shift";
-import { groupBy, isEmpty } from "lodash-es";
+import { groupBy, isEmpty } from "lodash";
 import isoWeek from "dayjs/plugin/isoWeek.js";
 import advancedFormat from "dayjs/plugin/advancedFormat.js";
 import customParseFormat from "dayjs/plugin/customParseFormat.js";

@@ -1,33 +1,24 @@
 {
   "name": "@cuttinboard-solutions/types-helpers",
-  "version": "3.3.1",
+  "version": "3.2.8",
   "description": "Main types and helper functions for cuttinboard",
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.es.js",
+  "main": "dist/compiled/index.cjs",
+  "module": "dist/compiled/index.mjs",
   "source": "src/index.ts",
-  "types": "dist/index.d.ts",
+  "types": "dist/compiled/index.d.ts",
   "type": "module",
   "isLibrary": true,
   "files": [
-    "dist/index.cjs.js",
-    "dist/index.d.ts",
-    "dist/index.es.js.map",
-    "dist/index.es.js"
+    "dist/compiled/index.cjs",
+    "dist/compiled/index.d.ts",
+    "dist/compiled/index.mjs.map",
+    "dist/compiled/index.mjs"
   ],
-  "exports": {
-    ".": {
-      "require": "./dist/index.cjs.js",
-      "import": "./dist/index.es.js"
-    },
-    "./es": {
-      "import": "./dist/index.es.js"
-    }
-  },
   "scripts": {
     "_clear": "rimraf dist/",
     "_tsc": "tsc",
     "_make-bundle": "rollup --config",
-    "build": "npm run _clear && npm run _make-bundle",
+    "build": "npm run _clear && npm run _tsc && npm run _make-bundle",
     "test": "mocha",
     "deploy": "npm run build && npm publish",
     "generate-docs": "typedoc --out docs src/index.ts",

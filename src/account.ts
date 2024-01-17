@@ -1,4 +1,4 @@
-import { RoleAccessLevels } from "./utils";
+import { RoleAccessLevels, SubTier } from "./utils";
 
 /**
  * Represents an emergency contact.
@@ -91,4 +91,5 @@ export interface IOrganizationKey {
   orgId: string;
   locId: string;
   pos?: string[];
+  tier: SubTier;
 }

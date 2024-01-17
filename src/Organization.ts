@@ -1,3 +1,5 @@
+import { SubTier } from "./utils";
+
 /**
  * Represents an organization.
  */
@@ -14,10 +16,12 @@ export type Organization = {
     | "active"
     | "past_due"
     | "canceled"
-    | "unpaid";
+    | "unpaid"
+    | "paused";
   hadMultipleLocations?: boolean;
   storageUsed: number;
   limits: {
     storage: string;
   };
+  tier: SubTier;
 };

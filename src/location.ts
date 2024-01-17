@@ -1,4 +1,5 @@
 import { DefaultScheduleSettings, IScheduleSettings } from "./schedule";
+import { SubTier } from "./utils";
 
 /**
  * Represents the subscription status of a location.
@@ -10,7 +11,8 @@ export type LocationSubscriptionStatus =
   | "active"
   | "past_due"
   | "canceled"
-  | "unpaid";
+  | "unpaid"
+  | "paused";
 
 /**
  * Represents the settings for a location.
@@ -58,6 +60,7 @@ export interface ILocation {
   updatedAt?: number;
   refPath: string;
   id: string;
+  tier: SubTier;
 }
 
 /**

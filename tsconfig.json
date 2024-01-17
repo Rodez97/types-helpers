@@ -3,9 +3,9 @@
     "outDir": "dist",
     "moduleResolution": "node",
     "noImplicitAny": true,
-    "module": "CommonJS",
-    "target": "ESNext",
-    "lib": ["es2017", "es7", "es6", "dom", "ESNext"],
+    "module": "ESNext",
+    "target": "ES2020",
+    "lib": ["es2017", "es7", "es6", "dom", "ESNext", "ES2020"],
     "esModuleInterop": true,
     "allowJs": true,
     "baseUrl": "src",
@@ -13,5 +13,6 @@
     "strictNullChecks": true,
     "declaration": true
   },
+  "include": ["src"],
   "exclude": ["dist/**/*"]
 }

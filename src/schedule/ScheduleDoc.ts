@@ -63,4 +63,8 @@ export interface IScheduleDoc {
    * The factor used for ordering the weeks.
    */
   weekOrderFactor: number;
+  /**
+   * Location name
+   */
+  locationName: string;
 }

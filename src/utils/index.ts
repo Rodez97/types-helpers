@@ -2,5 +2,6 @@
 export * from "./CONSTANTS";
 export * from "./PrivacyLevel";
 export * from "./RoleAccessLevels";
+export * from "./SubTiers";
 export * from "./TypeHelpers";
 // @endindex
