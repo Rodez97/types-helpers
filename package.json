@@ -1,6 +1,6 @@
 {
   "name": "@rodez97/types-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Main types and helper functions for cuttinboard",
   "source": "src/index.ts",
   "main": "dist/index.js",
@@ -22,13 +22,13 @@
     "date-fns": ">=2.29.3",
     "dayjs": ">=1.11.6",
     "dayjs-recur": ">=1.0.1",
-    "lodash-es": ">=4.17.21"
+    "lodash": ">=4.17.21"
   },
   "devDependencies": {
     "@parcel/packager-ts": "^2.8.3",
     "@parcel/transformer-typescript-types": "^2.8.3",
     "@types/dayjs-recur": "^1.0.0",
-    "@types/lodash-es": "^4.17.7",
+    "@types/lodash": "^4.14.202",
     "@types/node": "^16.11.6",
     "parcel": "^2.8.3",
     "tslib": "^2.5.2",
@@ -47,6 +47,6 @@
     "date-fns": "date-fns",
     "dayjs": "dayjs",
     "dayjs-recur": "dayjs-recur",
-    "lodash-es": "lodash-es"
+    "lodash": "lodash"
   }
 }

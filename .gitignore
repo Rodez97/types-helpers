@@ -6,5 +6,6 @@ __tests__/
 .parcel-cache/
 .VSCodeCounter/
 .npmrc
-.gitignore
+package-lock.json
+
 
